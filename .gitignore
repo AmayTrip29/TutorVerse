@@ -1,0 +1,50 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Next.js
+/.next/
+/out/
+
+# Testing
+/coverage
+
+# Production
+/build
+
+# Misc
+.DS_Store
+*.pem
+*.log
+.idx/
+docs/
+.vscode/
+
+# Firebase
+.firebase
+
+# Debug files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+firebase-debug.log
+
+# Local environment variables
+.env
+.env*.local
+.env.*.local
+
+# IDEs
+.vscode
+
+# Vercel
+.vercel
+
+# Turborepo
+.turbo
