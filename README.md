@@ -39,7 +39,7 @@ Follow these instructions to get TutorVerse running on your local machine.
 
 1.  **Clone the repository**:
     ```bash
-    git clone https://github.com/AmayTrip29/TutorVerse.git # Replace with your actual repository URL
+    git clone https://github.com/AmayTrip29/TutorVerse.git
     cd TutorVerse
     ```
 
@@ -61,7 +61,7 @@ TutorVerse requires a Google AI API key to interact with the Gemini models.
 
 2.  **Add your Google AI API key** to the `.env` file:
     ```
-    GOOGLE_API_KEY=YOUR_GOOGLE_AI_API_KEY
+    GEMINI_API_KEY=YOUR_GOOGLE_AI_API_KEY
     ```
     You can obtain an API key from [Google AI Studio](https://aistudio.google.com/app/apikey).
 
@@ -96,7 +96,7 @@ Open your browser and navigate to `http://localhost:9002` to use the application
 
 ## Live Deployed Application
 
-[Link to your live deployed application will go here - e.g., Vercel, Firebase Hosting]
+[TutorVerse](https://tutor-verse.vercel.app/)
 
 ## Agent Interaction and Tool Usage
 
